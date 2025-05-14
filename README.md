@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎧 TunedIn – YouTube Audio PWA Player
 
-## Getting Started
+TunedIn is a modern Progressive Web App (PWA) that allows users to stream **YouTube audio-only content** seamlessly. Built with **Next.js (App Router)**, **Tailwind CSS**, **Firebase**, and **PWA support**, it offers features like playlist shuffle, favorite tracking, and responsive music playback.
 
-First, run the development server:
+> ✅ For **personal use only**. Not intended for commercial distribution (to respect YouTube's Terms of Service).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🔐 Google Sign-In (Firebase Auth)
+- 📂 Fetch YouTube Playlists and Videos
+- 🎵 Audio-only streaming using `yt-dlp`
+- 📱 PWA-enabled: installable, lock-screen playback on iOS Safari
+- ❤️ Add/remove favorites (saved in Firestore)
+- 🔀 Shuffle full playlists or favorites
+- 📻 Bottom navigation with sleek UI
+- 🎧 Background audio playback (iPhone Safari compatible)
+- 🔄 Autoplay next (shuffled or ordered)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧱 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Layer        | Tech                               |
+| ------------ | ---------------------------------- |
+| Framework    | Next.js 15 App Router (Full-stack) |
+| Styling      | Tailwind CSS                       |
+| Auth         | Firebase Authentication (Google)   |
+| Database     | Firebase Firestore                 |
+| API          | YouTube Data API v3                |
+| Audio        | `yt-dlp` via serverless function   |
+| Hosting      | Vercel                             |
+| PWA          | `next-pwa` or custom SW            |
+| ------------ | --------------------------------   |
