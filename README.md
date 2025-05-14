@@ -22,14 +22,13 @@ TunedIn is a modern Progressive Web App (PWA) that allows users to stream **YouT
 
 ## 🧱 Tech Stack
 
-| Layer        | Tech                               |
-| ------------ | ---------------------------------- |
-| Framework    | Next.js 15 App Router (Full-stack) |
-| Styling      | Tailwind CSS                       |
-| Auth         | Firebase Authentication (Google)   |
-| Database     | Firebase Firestore                 |
-| API          | YouTube Data API v3                |
-| Audio        | `yt-dlp` via serverless function   |
-| Hosting      | Vercel                             |
-| PWA          | `next-pwa` or custom SW            |
-| ------------ | --------------------------------   |
+| Layer     | Tech                               |
+| --------- | ---------------------------------- |
+| Framework | Next.js 15 App Router (Full-stack) |
+| Styling   | Tailwind CSS                       |
+| Auth      | Firebase Authentication (Google)   |
+| Database  | Firebase Firestore                 |
+| API       | YouTube Data API v3                |
+| Audio     | `yt-dlp` via serverless function   |
+| Hosting   | Vercel                             |
+| PWA       | `next-pwa` or custom SW            |
